@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    width: 100%;  
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-between ;
+    background-color: blue;
+    position: relative;
+    padding: 15px;
+}
+.yellow{
+    width: 10%;
+}
+.happy{
+    color: red;
+    letter-spacing: 7px;
+    font-family: cursive;
+}
+.video1{
+    width: 30%;    
+}
+@media(max-width:576px){
+    .video1{
+        width: 70%;
+    }
+}

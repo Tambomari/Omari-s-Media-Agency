@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background: #000;
+    padding:  20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%
+}
+.container1{
+    background: rgba(212, 49, 49, 0.925);
+}
+.tim{
+    background: rgba(255, 251, 0, 0.918);
+    width: 100%;
+}
+.ii{
+    /* background: linear-gradient(rgba(0, 0, 255, 0.212)), url(./img/cta-bg.jpg) */
+    background: linear-gradient(rgba(16, 16, 77, 0.774), rgba(17, 13, 68, 0.74)), url(./IMG/cta-bg.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
